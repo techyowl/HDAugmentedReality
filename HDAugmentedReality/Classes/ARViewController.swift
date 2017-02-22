@@ -239,7 +239,7 @@ open class ARViewController: UIViewController, ARTrackingManagerDelegate
     
     internal func closeButtonTap()
     {
-        self.presentingViewController?.dismiss(animated: true, completion: nil)
+        self.presentingViewController?.dismiss(animated: false, completion: nil)
     }
     
     open override var prefersStatusBarHidden : Bool

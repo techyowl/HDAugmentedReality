@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                         ...
                        DESC
-  s.homepage         = "https://github.com/DanijelHuis/HDAugmentedReality.git"
+  s.homepage         = "https://github.com/techyowl/HDAugmentedReality.git"
   s.license          = 'MIT'
   s.author           = { "Danijel Huis" => "danijel.huis@gmail.com" }
-  s.source           = { :git => "https://github.com/DanijelHuis/HDAugmentedReality.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/techyowl/HDAugmentedReality.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
